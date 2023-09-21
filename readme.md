@@ -161,7 +161,7 @@ This one is very similar to the last problem. They're essentially the same excep
 ![image](https://github.com/roodra01/Health-Analytics-Mini-Case-Study/assets/129188359/33a312d2-02d2-4f56-9229-f48fc5c52d94)
 
 
-###9.  What is the median systolic/diastolic blood pressure values?
+### 9.  What is the median systolic/diastolic blood pressure values?
 ``` SQL
 SELECT
 PERCENTILE_CONT(systolic, 0.5 ) over() AS median_systolic,
